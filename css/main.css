@@ -1,0 +1,43 @@
+/*? font family */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*? font family */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .container-max {
+        @apply max-w-screen-2xl mx-auto;
+    }
+
+    .hover-link {
+        @apply hover:font-normal;
+    }
+
+    .show-links {
+        @apply !translate-x-0;
+    }
+
+    .calc-height {
+        @apply h-[calc(100vh-74px)];
+    }
+
+    /*  .calc-height-min {
+        @apply h-[50vh];
+    } */
+
+    .swiperProjects {
+        @apply bg-[#f4f3f167] py-2 px-2 xl:py-7 xl:px-1;
+    }
+
+    .swiperLeftCenter {
+        @apply absolute left-0 top-[40%] md:top-[50%] z-10;
+    }
+
+    .swiperRightCenter {
+        @apply absolute right-0 top-[40%] md:top-[50%] z-10;
+    }
+
+}
