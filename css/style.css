@@ -653,36 +653,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.6px;
 }
 
-.h-10{
-  height: 2.5rem;
-}
-
-.h-\[\]{
-  height: ;
-}
-
-.h-\[40\]{
-  height: 40;
-}
-
 .h-\[40vh\]{
   height: 40vh;
 }
 
-.max-h-\[\]{
-  max-height: ;
+.h-10{
+  height: 2.5rem;
 }
 
 .max-h-\[50vh\]{
   max-height: 50vh;
-}
-
-.max-h-\[20vh\]{
-  max-height: 20vh;
-}
-
-.\!max-h-\[20vh\]{
-  max-height: 20vh !important;
 }
 
 .w-\[80\%\]{
@@ -886,6 +866,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-1{
   padding-bottom: 0.25rem;
+}
+
+.pb-28{
+  padding-bottom: 7rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
+}
+
+.pt-1{
+  padding-top: 0.25rem;
+}
+
+.pt-14{
+  padding-top: 3.5rem;
 }
 
 .text-left{
@@ -1108,6 +1104,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .md\:pt-28{
+    padding-top: 7rem;
   }
 
   .md\:text-base{
