@@ -24,9 +24,9 @@
         @apply h-[calc(100vh-74px)];
     }
 
-    /*  .calc-height-min {
-        @apply h-[50vh];
-    } */
+     .calc-height-min {
+        @apply h-auto;
+    }
 
     .swiperProjects {
         @apply bg-[#f4f3f167] py-2 px-2 xl:py-7 xl:px-1;
