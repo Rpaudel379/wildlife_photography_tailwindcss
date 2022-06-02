@@ -665,6 +665,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-height: 50vh;
 }
 
+.max-h-\[20vh\]{
+  max-height: 20vh;
+}
+
+.\!max-h-\[20vh\]{
+  max-height: 20vh !important;
+}
+
 .w-\[80\%\]{
   width: 80%;
 }
